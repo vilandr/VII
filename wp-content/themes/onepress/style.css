@@ -3254,6 +3254,7 @@ img.mfp-img {
 	background: linear-gradient(to bottom, #33a031 0%, #fff 100%);
 	bottom: 0;
 	font-weight: bold;
+	width: 100%;
 }
 .onepress-menu li, .site-branding {
 	transform: skew(-20deg);
@@ -3276,6 +3277,7 @@ img.mfp-img {
 }
 .logoStrip {
 	margin-top: 50px;
+	text-align: center;
 }
 .logoStrip div img {
 	height: 75px;
@@ -3283,6 +3285,35 @@ img.mfp-img {
 .introduction {
 	font-size: 20px;
 	margin-bottom: 20px;
+}
+@media (max-width: 1200px) {
+	.widget_bizohourswidget {
+	display: none;
+}
+	.inventoryTypes {
+		margin: 10px auto;
+		float: none;
+	}
+}
+
+@media screen and (min-width: 1141px) and (max-width: 1200px){
+	.onepress-menu a {
+		font-size: 12px;
+	}
+}
+@media screen and (max-width: 1140px){
+	.onepress-menu li {
+		transform: none;
+		margin-top: 0;
+	}
+	.onepress-menu.onepress-menu-mobile {
+		top: 185px;
+	}
+}
+@media (max-width: 395px) {
+	.inventoryTypes {
+		display: none;
+	}
 }
 @media screen and (max-width: 800px) and (orientation: landscape), screen and (max-height: 300px) {
 	/**

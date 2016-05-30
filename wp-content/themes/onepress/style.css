@@ -73,7 +73,7 @@ body {
 }
 
 .site {
-	background: #FFFFFF;
+	background: whitesmoke;
 	position: relative;
 }
 
@@ -1181,7 +1181,7 @@ input[type="radio"], input[type="checkbox"] {
 /* Footer
 ------------------------------*/
 .site-footer {
-	background: linear-gradient(to top, #33a031 0%, #fff 100%) !important;
+	background: linear-gradient(to top, #33a031 0%, whitesmoke 100%) !important;
 	color: #BBBBBB;
 	font-size: 14px;
 }
@@ -3221,13 +3221,13 @@ img.mfp-img {
 /*10.0 Custom CSS 
 */
 #content-inside {
-	box-shadow: 0 0 75px #000;
+	background: #fff;
 }
 .site-content {
 	border: none;
 }
 #masthead {
-	background: linear-gradient(to bottom, #33a031 0%, #fff 100%);
+	background: linear-gradient(to bottom, #33a031 0%, whitesmoke 100%);
 }
 .inventoryTypes {
 	height: 230px;

@@ -20,22 +20,32 @@ get_header(); ?>
         	<div id="primary" class="content-area">
 				<main id="main" class="site-main" role="main">                     
 					<div class="col-sm-12 introduction">Viland Implement
-					of Pipestone, MN is an independent used farm machinery dealer in Southwest Minnesota. We carry a wide selection of
-					combine attachments, baler, planters, trailers and even automobiles. View the different sections of inventory that are
+					of Pipestone, MN is an independent used farm machinery dealer in Southwest Minnesota. We carry high quality used
+					combine attachments, balers, planters, trailers, lawn mowers and other miscellaneous machinery. View the different sections of inventory that are
 					for sale to see if there is something you are interested in.
 					</div>
 					<div class="col-sm-12">
-						<div class="col-sm-6 inventoryTypes" style="background: url(../Media/attachmentPhoto.png);">
-							<a href="/attachments" class="inventoryTypeLinks col-sm-12">Attachments</a>
-						</div>
 						<div class="col-sm-6 inventoryTypes" style="background: url(../Media/JohnDeereCombine.jpg);">
 							<a href="/combinestractors" class="inventoryTypeLinks col-sm-12">Combines And Tractors</a>
+						</div>
+						<div class="col-sm-6 inventoryTypes" style="background: url(../Media/attachmentPhoto.png);">
+							<a href="/heads" class="inventoryTypeLinks col-sm-12">Heads</a>
 						</div>
 						<div class="col-sm-6 inventoryTypes" style="background: url(../Media/fordTruck.jpeg);">
 							<a href="/automobiles" class="inventoryTypeLinks col-sm-12">Automobiles</a>
 						</div>
+						
+						<div class="col-sm-6 inventoryTypes" style="background: url(../Media/Case8480baler1.jpg);">
+							<a href="/balers" class="inventoryTypeLinks col-sm-12">Balers</a>
+						</div>
+						<div class="col-sm-6 inventoryTypes" style="background: url(../Media/jdmower.png);">
+							<a href="/residentialproducts" class="inventoryTypeLinks col-sm-12">Residential Products</a>
+						</div>
 						<div class="col-sm-6 inventoryTypes" style="background: url(../Media/tritontrailer.jpeg);">
 							<a href="/trailers" class="inventoryTypeLinks col-sm-12">Trailers</a>
+						</div>
+						<div class="col-sm-6 inventoryTypes" style="background: url(../Media/JD1760planter4.jpg);">
+							<a href="/planters" class="inventoryTypeLinks col-sm-12">Planters</a>
 						</div>
 					</div>
 					<div class="col-sm-12 logoStrip">

@@ -70,9 +70,16 @@ if ( ! function_exists( 'onepress_site_header' ) ) {
         <header id="masthead" class="site-header container" role="banner">
             <div class="container">
                 <div class="site-branding col-sm-12">
+
                 <?php
                 onepress_site_logo();
                 ?>
+                <div class="col-sm-12 headerContactDiv">
+                        <a href="/contact-us">1110 State Highway 23 Pipestone, Minnesota 56164</a>
+                </div>
+                <div class="col-sm-12 headerContactDiv">
+                    <a href="/contact-us">507-215-0597</a>
+                </div>
                 </div>
                 <!-- .site-branding -->
 

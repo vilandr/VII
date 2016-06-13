@@ -4,7 +4,7 @@
 Plugin Name: Huge IT Google Maps
 Plugin URI: http://huge-it.com/google-map
 Description: This easy to use Google Map plugin gives you opportunity to show anything on the map with fantastic tools of Google Maps.
-Version: 2.0.5
+Version: 2.0.6
 Author: Huge-IT
 Author URI: http://huge-it.com
 License: GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
@@ -339,16 +339,6 @@ function hugeitgooglemaps_main()
 	}
 }
 
-add_action("wp_enqueue_scripts","mapss_front_end_scripts");
-
-function mapss_front_end_scripts()
-{
-	wp_enqueue_script("jquery");
-	wp_enqueue_script("gmap", 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&libraries=places');
-	//wp_enqueue_script( 'ajax_script', plugins_url( 'js/front_end.js', __FILE__ ), array('jquery'));
-	//wp_localize_script( 'ajax_script', 'ajax_object',array( 'ajax_url' => admin_url( 'admin-ajax.php' ), 'we_value' => $email_nonce ) );
-}
-
 add_shortcode('huge_it_maps','huge_it_google_mapss_shortcode');
 
 function huge_it_google_mapss_shortcode($atts)
@@ -358,6 +348,8 @@ function huge_it_google_mapss_shortcode($atts)
 		array(
 			'id'=> ''
 		),$atts);
+	wp_enqueue_script("jquery");
+	wp_enqueue_script("gmap", 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&libraries=places');
 	return showpublishedmap($atts['id']);
 }
 

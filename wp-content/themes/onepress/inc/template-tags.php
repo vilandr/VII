@@ -67,7 +67,7 @@ if ( ! function_exists( 'onepress_site_header' ) ) {
      */
     function onepress_site_header(){
         ?>
-        <header id="masthead" class="site-header container" role="banner">
+        <header id="masthead" class="site-header" role="banner">
             <div class="container">
                 <div class="site-branding col-sm-12">
 

@@ -9,7 +9,7 @@
  * @package OnePress
  */
 ?>
-    <footer id="colophon" class="site-footer container" role="contentinfo">
+    <footer id="colophon" class="site-footer" role="contentinfo">
         <?php
         $onepress_btt_disable = get_theme_mod('onepress_btt_disable');
         $onepress_social_footer_title = get_theme_mod('onepress_social_footer_title', esc_html__('Keep Updated', 'onepress'));

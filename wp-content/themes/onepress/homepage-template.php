@@ -26,24 +26,23 @@ get_header(); ?>
 					</div>
 					<div class="col-sm-12">
 						<div class="col-sm-6 inventoryTypes" style="background: url(../Media/JohnDeereCombine.jpg);">
-							<a href="/combinestractors" class="inventoryTypeLinks col-sm-12">Combines And Tractors</a>
+							<a href="/inventory" class="inventoryTypeLinks col-sm-12">All Inventory</a>
 						</div>
 						<div class="col-sm-6 inventoryTypes" style="background: url(../Media/attachmentPhoto.png);">
 							<a href="/heads" class="inventoryTypeLinks col-sm-12">Heads</a>
 						</div>
-						<div class="col-sm-6 inventoryTypes" style="background: url(../Media/fordTruck.jpeg);">
+						<!-- <div class="col-sm-6 inventoryTypes" style="background: url(../Media/fordTruck.jpeg);">
 							<a href="/automobiles" class="inventoryTypeLinks col-sm-12">Automobiles</a>
-						</div>
-						
+						</div> -->
 						<div class="col-sm-6 inventoryTypes" style="background: url(../Media/Case8480baler1.jpg);">
 							<a href="/balers" class="inventoryTypeLinks col-sm-12">Balers</a>
 						</div>
-						<div class="col-sm-6 inventoryTypes" style="background: url(../Media/jdmower.png);">
+						<!-- <div class="col-sm-6 inventoryTypes" style="background: url(../Media/jdmower.png);">
 							<a href="/residentialproducts" class="inventoryTypeLinks col-sm-12">Residential Products</a>
-						</div>
-						<div class="col-sm-6 inventoryTypes" style="background: url(../Media/tritontrailer.jpeg);">
+						</div> -->
+						<!-- <div class="col-sm-6 inventoryTypes" style="background: url(../Media/tritontrailer.jpeg);">
 							<a href="/trailers" class="inventoryTypeLinks col-sm-12">Trailers</a>
-						</div>
+						</div> -->
 						<div class="col-sm-6 inventoryTypes" style="background: url(../Media/JD1760planter4.jpg);">
 							<a href="/planters" class="inventoryTypeLinks col-sm-12">Planters</a>
 						</div>
